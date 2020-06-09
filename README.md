@@ -39,7 +39,7 @@ There interface looks like this:
 public interface StickyRecyclerHeadersAdapter<VH extends RecyclerView.ViewHolder> {
   public long getHeaderId(int position);
 
-  public VH onCreateHeaderViewHolder(ViewGroup parent);
+  public VH onCreateHeaderViewHolder(ViewGroup parent, int position);
 
   public void onBindHeaderViewHolder(VH holder, int position);
 
