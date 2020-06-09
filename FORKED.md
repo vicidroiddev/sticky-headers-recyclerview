@@ -7,4 +7,4 @@ Forked version of the wonderful library created by jacobtabak
 • Update Buildtools to 29.0.2
 • Change minSdk to 21
 • Change targetSdk to 29
-• Change compileSdk to 29
+• Change compileSdk to 29git p

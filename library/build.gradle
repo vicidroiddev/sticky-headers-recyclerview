@@ -17,11 +17,12 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:recyclerview-v7:${rootProject.supportLibsVersion}"
+
+    implementation "com.android.support:recyclerview-v7:${rootProject.supportLibsVersion}"
 }
 
-apply from: 'gradle-maven-push.gradle'
+//apply from: 'gradle-maven-push.gradle'
 
-afterEvaluate {
-    androidJavadocs.classpath += project.android.libraryVariants.toList().first().javaCompile.classpath
-}
+//afterEvaluate {
+//    androidJavadocs.classpath += project.android.libraryVariants.toList().first().javaCompile.classpath
+//}
